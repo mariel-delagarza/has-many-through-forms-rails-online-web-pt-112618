@@ -40,9 +40,5 @@ ActiveRecord::Migration.maintain_test_schema!
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
 
-   DatabaseCleaner.strategy = :truncation
-
-   config.after(:all) do
-    DatabaseCleaner.clean
-  end
+   
 end
