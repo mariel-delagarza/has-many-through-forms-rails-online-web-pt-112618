@@ -1,6 +1,6 @@
 #dummy test
 
- require "spec_helper"
+ require "test_helper"
 
  describe "Song" do
   describe "#initialize" do
