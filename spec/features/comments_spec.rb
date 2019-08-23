@@ -22,3 +22,4 @@ require 'rails_helper'
     click_button('Create Comment')
     expect(page).to have_content("CoolPerson25 says: i agree")
   end
+end
